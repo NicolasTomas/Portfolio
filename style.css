@@ -168,7 +168,8 @@ h2 {
     border-radius: 20%;
     box-shadow: 0 5px 15px 0 #dc28e54b;
     transform: translatey(0);
-    animation: 6s ease-in-out infinite float
+    animation: 6s ease-in-out infinite float;
+    margin-left: 10px;
 }
 
 .container,
