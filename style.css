@@ -290,7 +290,7 @@ img {
 }
 
 .pie-wrapper .shadow {
-    border: .04em solid #d8d1d1;
+    border: .04em solid #fefefe20;
     border-radius: 50%
 }
 
@@ -301,7 +301,9 @@ img {
 
 .pie-wrapper.progress-60 .pie .half-circle,
 .pie-wrapper.progress-90 .pie .half-circle,
-.pie-wrapper.progress-95 .pie .half-circle {
+.pie-wrapper.progress-95 .pie .half-circle,
+.pie-wrapper.progress-9 .pie .half-circle,
+.pie-wrapper.progress-10 .pie .half-circle {
     border-color: #da28e5
 }
 
@@ -311,13 +313,17 @@ img {
 
 .pie-wrapper.progress-60 .pie .right-side,
 .pie-wrapper.progress-90 .pie .right-side,
-.pie-wrapper.progress-95 .pie .right-side {
+.pie-wrapper.progress-95 .pie .right-side,
+.pie-wrapper.progress-9 .pie .right-side,
+.pie-wrapper.progress-10 .pie .right-side {
     transform: rotate(180deg)
 }
 
 .pie-wrapper.progress-60 .pie,
 .pie-wrapper.progress-90 .pie,
-.pie-wrapper.progress-95 .pie {
+.pie-wrapper.progress-95 .pie,
+.pie-wrapper.progress-9 .pie,
+.pie-wrapper.progress-10 .pie {
     clip: rect(auto, auto, auto, auto)
 }
 
@@ -327,6 +333,16 @@ img {
 
 .pie-wrapper.progress-95 .pie .left-side {
     transform: rotate(342deg)
+}
+
+.pie-wrapper.progress-9 .pie .left-side {
+    transform: rotate(252deg)
+}
+
+
+/* wordpress */
+.pie-wrapper.progress-10 .pie .left-side {
+    transform: rotate(252deg)
 }
 
 .animation {
